@@ -2,7 +2,7 @@
 title: vue3中3D高德地图的使用
 date: 2022-02-18 17:34:25
 tags: [javascript,vue]
-Categories: vue
+categories: vue
 ---
 
 ## vue3中3D高德地图的使用
