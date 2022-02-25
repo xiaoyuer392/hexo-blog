@@ -7,25 +7,25 @@ categories: vue
 
 ## vue3中3D高德地图的使用
 
-- #### 1、注册高德地图账号，并创建新应用
+#### 1、注册高德地图账号，并创建新应用
 
   {% asset_img 2.jpg %}
 
-- #### 2、创建应用后新建key，注意选择Web端(JS API)服务平台
+#### 2、创建应用后新建key，注意选择Web端(JS API)服务平台
 
   {% asset_img 3.jpg %}
 
-- #### 3、获取到key值和安全密钥
+#### 3、获取到key值和安全密钥
 
   {% asset_img 4.jpg %}
 
-- #### 4、下载高德地图插件的npm包@amap/amap-jsapi-loader
+#### 4、下载高德地图插件的npm包@amap/amap-jsapi-loader
 
   ```bash
   npm i @amap/amap-jsapi-loader --save
   ```
 
-- #### 5、在你的index.vue文件中创建div容器
+#### 5、在你的index.vue文件中创建div容器
 
   ```vue
   <template>
@@ -33,7 +33,7 @@ categories: vue
   </template>
   ```
 
-- #### 6、设置地图容器的css样式
+#### 6、设置地图容器的css样式
 
   ```vue
   <style  scoped>
@@ -46,7 +46,7 @@ categories: vue
   </style>
   ```
 
-- #### 8、在你的utils工具方法目录下的Amap.ts文件中封装地图实例的方法
+#### 8、在你的utils工具方法目录下的Amap.ts文件中封装地图实例的方法
 
   ```javascript
   import AMapLoader from '@amap/amap-jsapi-loader';
@@ -82,7 +82,7 @@ categories: vue
   }
   ```
 
-- #### 9、在你的pubilc目录下的index.html文件中设置安全密钥
+#### 9、在你的pubilc目录下的index.html文件中设置安全密钥
 
   ```html
   <!DOCTYPE html>
@@ -108,7 +108,7 @@ categories: vue
   </html>
   ```
 
-- #### 10、在你的index.vue文件中调用封装的方法绘制地图
+#### 10、在你的index.vue文件中调用封装的方法绘制地图
 
   ```vue
   <template>
@@ -185,7 +185,7 @@ categories: vue
   </style>
   ```
 
-- #### 11、效果展示
+#### 11、效果展示
 
   {% asset_img 1.jpg %}
 
